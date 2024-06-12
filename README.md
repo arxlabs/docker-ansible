@@ -2,11 +2,6 @@
 
 This repository contains a Dockerfile to create a Docker image for running Ansible. The image is based on Ubuntu 22.04 and includes specific versions of Ansible Core, Ansible, and Ansible Lint.
 
-[![Docker Image Version](https://img.shields.io/docker/v/arxlab/ansible?label=latest)](https://hub.docker.com/r/arxlab/ansible/tags)
-[![Docker Pulls](https://img.shields.io/docker/pulls/arxlab/ansible)](https://hub.docker.com/r/arxlab/ansible)
-
-[![Docker Pulls](https://img.shields.io/docker/pulls/arxlab/ansible.svg "Docker Pulls")][hub] ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/arxlab/ansible/latest)
-
 ## Features
 
 - **Base Image**: Ubuntu 22.04
