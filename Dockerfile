@@ -24,9 +24,9 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update && \
     apt-get clean
 
 # Install Ansible
-RUN python3 -m pip install --upgrade pip cffi && \
+RUN python3 -m pip install --upgrade pip && \
     pip3 install ansible-core==${ANSIBLE_CORE_VERSION} && \
-    pip3 install ansible==${ANSIBLE_VERSION} ansible-lint==${ANSIBLE_LINT} && \
+    pip3 install ansible==${ANSIBLE_VERSION} ansible-lint==${ANSIBLE_LINT_VERSION} && \
     rm -rf /root/.cache/pip
 
 RUN mkdir /ansible && \
